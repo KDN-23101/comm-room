@@ -23,4 +23,4 @@ The application uses a hybrid networking model:
 ## Setup Instructions
 Depending on your operating system, follow the specific setup guide below:
 - [Linux Setup Guide](https://github.com/KDN-23101/comm-room/blob/main/Linux/README.md)
-- [Windows Setup Guide](WINDOWS_SETUP.md)
+- [Windows Setup Guide](https://github.com/KDN-23101/comm-room/blob/main/Windows/README.md)
