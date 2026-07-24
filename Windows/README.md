@@ -18,19 +18,19 @@ openssl req -x509 -newkey rsa:2048 -keyout server.key -out server.crt -days 365 
 ## Compiling
 Once the dependencies are installed and your certificates are generated, open your terminal in the project folder and use the provided `Makefile` to compile the Windows executables:
 ```bash
-mingw32-make server_win client_win
+mingw32-make winserver winclient
 ```
 *(Note: Depending on your MSYS2 environment, the make command might just be `make`)*
-This will output two executable files: `server_win.exe` and `client_win.exe`.
+This will output two executable files: `winserver.exe` and `winclient.exe`.
 ## Running the Application
 Double-click the executables in Windows Explorer, or run them from your terminal!
 **To host a chat room:**
 ```bash
-./server_win.exe
+./winserver.exe
 ```
 You will be prompted to enter a custom name for your chat room and a secure password.
 **To join a chat room:**
 ```bash
-./client_win.exe
+./winclient.exe
 ```
 The client will automatically scan your local network for active servers and display a list for you to choose from!
