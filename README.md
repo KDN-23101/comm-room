@@ -22,5 +22,5 @@ The application uses a hybrid networking model:
 4. **Identity Binding:** Client sends their requested username. Server generates a `#1234` tag, binds it to the connection, and logs the IP.
 ## Setup Instructions
 Depending on your operating system, follow the specific setup guide below:
-- [Linux Setup Guide](LINUX_SETUP.md)
+- [Linux Setup Guide](/Linux/README.md)
 - [Windows Setup Guide](WINDOWS_SETUP.md)
